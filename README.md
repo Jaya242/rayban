@@ -7,19 +7,19 @@ This is a little project after learning html, css & little bit of Javascript. Th
 <h1>Pre-Requisites</h1>
 <ul>
   <li>
-    ::marker
+
     "HTML"
   </li>
   <li>
-    ::marker
+
     "CSS"
   </li>
   <li>
-    ::marker
+
     "Java-Script"
   </li>
   <li>
-    ::marker
+   
     "NodeJs"
   </li>
 </ul>
