@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+
+}
+#top{
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    /* background-color: #000; */
+    position: absolute;
+}
+#working-area{
+    width: 100%;
+    height: 100%;
+    /* background-color: #e01b1b; */
+    margin: 0 auto;
+    position: relative;
+    border: rgb(0, 0, 0) 9px solid;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh;
+    width: 100%;
+    /* height: 15%;
+    background-color: #ee0d0d; */
+
+}
+#nav-left{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+#nav-left img{
+    width: 24vh;
+    height: 7vw;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+a{
+    pointer-events: all;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vh;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#hero{
+    width: 100%;
+    height: calc(100% - 18%);
+    /* background-color: #ff0000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    /* top: 30%;
+    left: 0;
+    padding: 4vh;
+    transform: translateX(30%); */
+
+}
+#hero-left{
+    min-width: 50%;
+    height: 100%;
+    /* background-color: #61820d; */
+    margin: 0 auto;
+    top: 30%;
+    left: 0;
+    padding: 4vh;
+    transform: translateY(0%);
+    transform: translateX(-10%);
+    
+}
+#hero-right{
+    width: 15%;
+    min-height: 90%;
+    /* background-color: #00ffe1; */
+    margin: 0 auto;
+    transform: translateY(-10%);
+    
+} 
+.elem{
+    height: 8.5vw;
+    /* background-color: rgb(251, 143, 1); */
+    overflow: hidden;
+}
+.elem h1{
+    font-family: "kajiro";
+    font-size: 19vh;
+    letter-spacing: 0.12vh;
+    font-weight: 100;
+    color: white;
+    padding: 0.01vw 0.9vw;
+    position: absolute;
+}
+button{
+    pointer-events: all;
+    margin: 4vw 0.9vw;
+    padding: 1.5vh 2.5vw;
+    font-family: "kajiro";
+    font-size: 4vw;
+    letter-spacing: 0.12vh;
+    cursor: pointer;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    text-align: right;
+    margin-bottom: 1vh;
+    font-weight: 500;
+}
+#image-div img{
+    background-image: url(alex-robertson-LBuHHsfaX28-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    border: solid 1px black;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* background-color: red */
+}
+#hero-right p:nth-of-type(2) {
+    margin-bottom: 4vh;
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    /* position: absolute; */
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+}
